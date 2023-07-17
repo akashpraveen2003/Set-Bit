@@ -12,8 +12,8 @@ public class Set_Bit {
 	private static void set_bit(int a, int b) {
 		
 		int ans=0;
-		ans=ans|1<<a;
-		ans=ans|1<<b;
+		ans=ans|1<<a;		// | is similar to addition and left shift makes the number to 2^n
+		ans=ans|1<<b;		// Then, we add those 2, similar to find the Math.power and addition those
 		System.out.println(ans);
 		
 		
